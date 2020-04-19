@@ -1,0 +1,57 @@
+{
+  "name": "@neo/monorepo",
+  "description": "Neo: Node Ecosystem Orchestration. The last tool you'll ever need to start building awesome shit now. You're development toolkit is here.",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Branden Dane <branden@danetheory.com> (https://danetheory.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaneTheory/Neo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaneTheory/Neo/issues"
+  },
+  "homepage": "https://github.com/DaneTheory/Neo",
+  "keywords": [
+    "Neo",
+    "neo",
+    "@neo",
+    "neo-cli",
+    "node",
+    "ecosystem",
+    "orchestration",
+    "node ecosystem orchestration",
+    "cli",
+    "yarn",
+    "npm",
+    "berry",
+    "v2",
+    "yarn v2",
+    "yarn workspaces",
+    "workspaces",
+    "nodejs",
+    "tool",
+    "tooling",
+    "toolkit",
+    "dev",
+    "development",
+    "monorepo",
+    "branden",
+    "dane",
+    "branden dane",
+    "danetheory"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "13.x",
+    "yarn": ">= 2.0.0",
+    "npm": "false"
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "g:ws": "yarn workspace $0 $1 $2",
+    "ws": "yarn run g:ws"
+  }
+}

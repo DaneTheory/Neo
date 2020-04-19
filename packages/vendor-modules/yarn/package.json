@@ -1,0 +1,11 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "bin": {
+    "neo-yarn": "./bin/neo-yarn.js"
+  },
+  "main": "./bin/neo-yarn.js",
+  "scripts": {
+    "start": "node ."
+  }
+}
