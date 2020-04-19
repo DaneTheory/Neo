@@ -39,7 +39,14 @@
     "branden",
     "dane",
     "branden dane",
-    "danetheory"
+    "danetheory",
+    "esm",
+    "ultra-runner",
+    "ultra",
+    "pnp",
+    "pnpapi",
+    "plunplay",
+    "developer-tools"
   ],
   "license": "MIT",
   "engines": {
